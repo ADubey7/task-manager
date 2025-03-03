@@ -52,17 +52,19 @@ Task Manager is a full-stack web application designed to help users efficiently 
    git clone https://github.com/ADubey7/task-manager.git
 
    cd task-manager
-   
+
 Install dependencies:
 
 For the backend:
 
 cd backend
+
 npm install
 
 For the frontend:
 
 cd ../frontend
+
 npm install
 
 Set up environment variables:
@@ -72,14 +74,19 @@ Create a .env file in the backend directory and add the following:
 MONGO_URI=mongodb://localhost:27017/task-manager
 JWT_SECRET=your_jwt_secret_key
 PORT=5000
+
 Start the backend server:
 
 cd backend
+
 npm start
+
 Start the frontend development server:
 
 cd ../frontend
+
 npm start
+
 Access the application:
 
 Open your browser and navigate to http://localhost:3000.
@@ -88,9 +95,11 @@ Open your browser and navigate to http://localhost:3000.
 ## Screenshots
 
 ### Login Page
+
 ![Login Page](screenshots/loginpage.png)
 
 ### Dashboard
+
 ![Dashboard](screenshots/dashboard.png)
 
 
@@ -123,6 +132,7 @@ MongoDB for the database.
 Bootstrap for the UI components.
 
 Contact
+
 For any questions or feedback, feel free to reach out:
 
 Ashish Dubey: honeyashish72@gmail.com
