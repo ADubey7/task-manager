@@ -1,0 +1,38 @@
+/* src/styles/LoginPage.css */
+.login-page {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .login-card {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  
+  .login-card .card-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .login-card .form-label {
+    font-weight: 500;
+  }
+  
+  .login-card .btn-primary {
+    background-color: #667eea;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .login-card .btn-primary:hover {
+    background-color: #5a6fd1;
+  }
