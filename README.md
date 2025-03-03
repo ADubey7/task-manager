@@ -105,17 +105,23 @@ Open your browser and navigate to http://localhost:3000.
 
 Contributing
 
-Contributions are welcome! If you'd like to contribute, please follow these steps:
+We welcome contributions! To contribute, please follow these steps:
 
 Fork the repository.
 
-Create a new branch (git checkout -b feature/YourFeatureName).
+Create a new branch:
 
-Commit your changes (git commit -m 'Add some feature').
+git checkout -b feature/YourFeatureName
 
-Push to the branch (git push origin feature/YourFeatureName).
+Commit your changes:
 
-Open a pull request.
+git commit -m "Add some feature"
+
+Push to the branch:
+
+git push origin feature/YourFeatureName
+
+Open a Pull Request on GitHub.
 
 License:-
 
@@ -123,18 +129,15 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 Acknowledgments:-
 
-React for the frontend framework.
+React – Frontend framework
+Express.js – Backend framework
+MongoDB – Database
+Bootstrap – UI components
 
-Express.js for the backend framework.
-
-MongoDB for the database.
-
-Bootstrap for the UI components.
-
-Contact
+Contact:-
 
 For any questions or feedback, feel free to reach out:
 
-Ashish Dubey: honeyashish72@gmail.com
+📧 Email: honeyashish72@gmail.com
+🐙 GitHub: ADubey7
 
-GitHub: ADubey7
