@@ -1,6 +1,6 @@
 # Task Manager
 
-Task Manager is a full-stack web application designed to help users efficiently manage their tasks. With a user-friendly interface, it allows users to create, edit, delete, and mark tasks as completed. The application also features user authentication and a dark mode toggle for enhanced user experience.
+Task Manager is a full-stack web application designed to help users efficiently manage their tasks. It provides a user-friendly interface for creating, editing, deleting, and marking tasks as completed. The application includes user authentication for secure access and a dark mode toggle to enhance the user experience.
 
 ---
 
