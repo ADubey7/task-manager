@@ -129,10 +129,13 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 Acknowledgments:-
 
-React – Frontend framework
-Express.js – Backend framework
-MongoDB – Database
-Bootstrap – UI components
+React – Frontend framework.
+
+Express.js – Backend framework.
+
+MongoDB – Database.
+
+Bootstrap – UI components.
 
 Contact:-
 
