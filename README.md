@@ -57,10 +57,12 @@ For the backend:
 
 cd backend
 npm install
+
 For the frontend:
 
 cd ../frontend
 npm install
+
 Set up environment variables:
 
 Create a .env file in the backend directory and add the following:
@@ -70,21 +72,17 @@ JWT_SECRET=your_jwt_secret_key
 PORT=5000
 Start the backend server:
 
-bash
-Copy
 cd backend
 npm start
 Start the frontend development server:
 
-bash
-Copy
 cd ../frontend
 npm start
 Access the application:
 
 Open your browser and navigate to http://localhost:3000.
 
-Screenshots-
+
 ## Screenshots
 
 ### Login Page
@@ -95,6 +93,7 @@ Screenshots-
 
 
 Contributing
+
 Contributions are welcome! If you'd like to contribute, please follow these steps:
 
 Fork the repository.
@@ -107,10 +106,12 @@ Push to the branch (git push origin feature/YourFeatureName).
 
 Open a pull request.
 
-License
+License:-
+
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Acknowledgments
+Acknowledgments:-
+
 React for the frontend framework.
 
 Express.js for the backend framework.
