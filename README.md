@@ -50,7 +50,9 @@ Task Manager is a full-stack web application designed to help users efficiently 
 1. **Clone the repository**:
    
    git clone https://github.com/ADubey7/task-manager.git
+
    cd task-manager
+   
 Install dependencies:
 
 For the backend:
