@@ -1,147 +1,142 @@
 # Task Manager
 
-Task Manager is a full-stack web application designed to help users efficiently manage their tasks. It provides a user-friendly interface for creating, editing, deleting, and marking tasks as completed. The application includes user authentication for secure access and a dark mode toggle to enhance the user experience.
+Task Manager is a full-stack web application designed to help users efficiently manage their tasks. It provides a user-friendly interface for creating, editing, deleting, and marking tasks as completed. The application includes secure user authentication and a dark mode toggle for an enhanced user experience.
 
 ---
 
-## Features
+## 📌 Features
 
-- **User Authentication**:
-  - Secure registration and login functionality.
-  - JWT-based authentication for secure access.
+### 🔐 User Authentication
+- Secure user registration and login functionality.
+- JWT-based authentication for session security.
 
-- **Task Management**:
-  - Create new tasks with a title and description.
-  - Edit existing tasks to update their details.
-  - Delete tasks that are no longer needed.
-  - Mark tasks as completed or incomplete.
+### ✅ Task Management
+- Create, edit, and delete tasks with title and description.
+- Mark tasks as completed or incomplete.
 
-- **Dark Mode**:
-  - Toggle between light and dark themes for better readability and reduced eye strain.
+### 🌙 Dark Mode
+- Toggle between light and dark themes for better readability and reduced eye strain.
 
-- **Responsive Design**:
-  - Works seamlessly on both desktop and mobile devices.
+### 📱 Responsive Design
+- Optimized for both desktop and mobile devices.
 
 ---
 
-## Technologies Used
+## 🛠️ Technologies Used
 
-### Frontend
-- **React.js**: A JavaScript library for building user interfaces.
-- **React Bootstrap**: For responsive and pre-styled components.
-- **Axios**: For making HTTP requests to the backend.
+### Frontend:
+- **React.js** – JavaScript library for building UI components.
+- **React Bootstrap** – Pre-styled components for responsive design.
+- **Axios** – HTTP client for API requests.
 
-### Backend
-- **Node.js**: A JavaScript runtime for building the server.
-- **Express.js**: A web framework for Node.js.
-- **MongoDB**: A NoSQL database for storing tasks and user data.
-- **Mongoose**: An ODM (Object Data Modeling) library for MongoDB.
-- **JWT (JSON Web Tokens)**: For secure user authentication.
+### Backend:
+- **Node.js** – JavaScript runtime for server-side development.
+- **Express.js** – Web framework for handling API routes.
+- **MongoDB** – NoSQL database for data storage.
+- **Mongoose** – ODM (Object Data Modeling) for MongoDB.
+- **JWT (JSON Web Token)** – Secure authentication mechanism.
 
 ---
 
-## Installation
+## 🚀 Installation Guide
 
-### Prerequisites
-- Node.js (v16 or higher)
-- MongoDB (local or cloud instance)
+### 📋 Prerequisites
+- Install **Node.js** (v16 or higher)
+- Set up **MongoDB** (local or cloud instance)
 
-### Steps
-1. **Clone the repository**:
-   
-   git clone https://github.com/ADubey7/task-manager.git
+### 📂 Steps to Run the Project
 
-   cd task-manager
+1️⃣ **Clone the repository:**
+```sh
+ git clone https://github.com/ADubey7/task-manager.git
+ cd task-manager
+```
 
-Install dependencies:
+2️⃣ **Install dependencies:**
 
-For the backend:
+For the **backend**:
+```sh
+ cd backend
+ npm install
+```
 
-cd backend
+For the **frontend**:
+```sh
+ cd ../frontend
+ npm install
+```
 
-npm install
+3️⃣ **Set up environment variables:**
+Create a `.env` file in the **backend** directory and add:
+```sh
+ MONGO_URI=mongodb://localhost:27017/task-manager
+ JWT_SECRET=your_jwt_secret_key
+ PORT=5000
+```
 
-For the frontend:
+4️⃣ **Start the backend server:**
+```sh
+ cd backend
+ npm start
+```
 
-cd ../frontend
+5️⃣ **Start the frontend development server:**
+```sh
+ cd ../frontend
+ npm start
+```
 
-npm install
+6️⃣ **Access the application:**
+- Open your browser and navigate to: **http://localhost:3000**
 
-Set up environment variables:
+---
 
-Create a .env file in the backend directory and add the following:
+## 📷 Screenshots
 
-MONGO_URI=mongodb://localhost:27017/task-manager
-JWT_SECRET=your_jwt_secret_key
-PORT=5000
-
-Start the backend server:
-
-cd backend
-
-npm start
-
-Start the frontend development server:
-
-cd ../frontend
-
-npm start
-
-Access the application:
-
-Open your browser and navigate to http://localhost:3000.
-
-
-## Screenshots
-
-### Login Page
-
+### 🔑 Login Page
 ![Login Page](screenshots/loginpage.png)
 
-### Dashboard
-
+### 📋 Dashboard
 ![Dashboard](screenshots/dashboard.png)
 
+---
 
-Contributing
+## 🤝 Contributing
+We welcome contributions! Follow these steps to contribute:
 
-We welcome contributions! To contribute, please follow these steps:
+1. **Fork the repository.**
+2. **Create a new branch:**
+   ```sh
+   git checkout -b feature/YourFeatureName
+   ```
+3. **Commit your changes:**
+   ```sh
+   git commit -m "Add some feature"
+   ```
+4. **Push to the branch:**
+   ```sh
+   git push origin feature/YourFeatureName
+   ```
+5. **Open a Pull Request on GitHub.**
 
-Fork the repository.
+---
 
-Create a new branch:
+## 📜 License
+This project is licensed under the **MIT License**. See the `LICENSE` file for details.
 
-git checkout -b feature/YourFeatureName
+---
 
-Commit your changes:
+## 🙌 Acknowledgments
+- **React.js** – Frontend framework.
+- **Express.js** – Backend framework.
+- **MongoDB** – Database.
+- **Bootstrap** – UI components.
 
-git commit -m "Add some feature"
+---
 
-Push to the branch:
-
-git push origin feature/YourFeatureName
-
-Open a Pull Request on GitHub.
-
-License:-
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Acknowledgments:-
-
-React – Frontend framework.
-
-Express.js – Backend framework.
-
-MongoDB – Database.
-
-Bootstrap – UI components.
-
-Contact:-
-
+## 📬 Contact
 For any questions or feedback, feel free to reach out:
 
-📧 Email: honeyashish72@gmail.com
-
-🐙 GitHub: ADubey7
+📧 **Email**: honeyashish72@gmail.com  
+🐙 **GitHub**: [ADubey7](https://github.com/ADubey7)
 
