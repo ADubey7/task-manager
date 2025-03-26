@@ -1,147 +1,148 @@
 # Task Manager
 
-Task Manager is a full-stack web application designed to help users efficiently manage their tasks. It provides a user-friendly interface for creating, editing, deleting, and marking tasks as completed. The application includes user authentication for secure access and a dark mode toggle to enhance the user experience.
-
----
+## Overview
+Task Manager is a full-stack web application designed to help users efficiently manage their tasks. It provides a user-friendly interface for creating, editing, deleting, and marking tasks as completed. The application includes secure user authentication and a dark mode toggle to enhance the user experience.
 
 ## Features
+### 🔒 User Authentication:
+- Secure registration and login functionality.
+- JWT-based authentication for protected access.
+- Robust password management and security.
 
-- **User Authentication**:
-  - Secure registration and login functionality.
-  - JWT-based authentication for secure access.
+### 📋 Task Management:
+- Create new tasks with comprehensive details.
+- Edit existing tasks with ease.
+- Delete tasks that are no longer relevant.
+- Mark tasks as completed or incomplete.
+- Organize and prioritize your workflow.
 
-- **Task Management**:
-  - Create new tasks with a title and description.
-  - Edit existing tasks to update their details.
-  - Delete tasks that are no longer needed.
-  - Mark tasks as completed or incomplete.
+### 🌓 Dark Mode:
+- Toggle between light and dark themes.
+- Reduce eye strain during extended use.
+- Personalize your visual experience.
 
-- **Dark Mode**:
-  - Toggle between light and dark themes for better readability and reduced eye strain.
-
-- **Responsive Design**:
-  - Works seamlessly on both desktop and mobile devices.
-
----
+### 📱 Responsive Design:
+- Seamless experience across desktop and mobile devices.
+- Consistent UI/UX across all platforms.
 
 ## Technologies Used
+- **🖥 Frontend:** 
+  - React.js
+  - React Bootstrap
+  - Axios
 
-### Frontend
-- **React.js**: A JavaScript library for building user interfaces.
-- **React Bootstrap**: For responsive and pre-styled components.
-- **Axios**: For making HTTP requests to the backend.
+- **🗄 Backend:**
+  - Node.js
+  - Express.js
+  - MongoDB
+  - Mongoose
+  - JWT (JSON Web Tokens)
 
-### Backend
-- **Node.js**: A JavaScript runtime for building the server.
-- **Express.js**: A web framework for Node.js.
-- **MongoDB**: A NoSQL database for storing tasks and user data.
-- **Mongoose**: An ODM (Object Data Modeling) library for MongoDB.
-- **JWT (JSON Web Tokens)**: For secure user authentication.
+## Prerequisites
+Before running the project, ensure you have the following installed:
+- **🟢 Node.js:** Version 16 or higher
+- **🍃 MongoDB:** Local or cloud instance
+- **📦 npm (Node Package Manager)**
 
----
+## Setup Instructions
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/ADubey7/task-manager.git
+cd task-manager
+```
 
-## Installation
-
-### Prerequisites
-- Node.js (v16 or higher)
-- MongoDB (local or cloud instance)
-
-### Steps
-1. **Clone the repository**:
-   
-   git clone https://github.com/ADubey7/task-manager.git
-
-   cd task-manager
-
-Install dependencies:
-
-For the backend:
-
+### 2️⃣ Install Dependencies
+#### Backend Setup
+```bash
 cd backend
-
 npm install
+```
 
-For the frontend:
-
+#### Frontend Setup
+```bash
 cd ../frontend
-
 npm install
+```
 
-Set up environment variables:
-
-Create a .env file in the backend directory and add the following:
-
+### 3️⃣ Configure Environment
+Create a `.env` file in the backend directory:
+```properties
 MONGO_URI=mongodb://localhost:27017/task-manager
 JWT_SECRET=your_jwt_secret_key
 PORT=5000
+```
 
-Start the backend server:
-
+### 4️⃣ Start the Application
+#### Start Backend Server
+```bash
 cd backend
-
 npm start
+```
 
-Start the frontend development server:
-
+#### Start Frontend Development Server
+```bash
 cd ../frontend
-
 npm start
+```
 
-Access the application:
+### 5️⃣ Access the Application
+Open your browser and navigate to:
+- Frontend: `http://localhost:3000`
+- Backend API: `http://localhost:5000`
 
-Open your browser and navigate to http://localhost:3000.
+## 📂 Project Structure
+```
+task-manager/
+├── backend/
+│   ├── config/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── .env
+│   ├── package.json
+│   └── server.js
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   ├── App.js
+│   │   └── index.js
+│   ├── package.json
+│   └── README.md
+└── README.md
+```
 
-
-## Screenshots
-
+## 🖼️ Screenshots
 ### Login Page
-
 ![Login Page](screenshots/loginpage.png)
 
 ### Dashboard
-
 ![Dashboard](screenshots/dashboard.png)
 
+## 🤝 Contributing
+We welcome contributions! To contribute:
 
-Contributing
+1. Fork the repository
+2. Create a new branch: `git checkout -b feature/YourFeatureName`
+3. Commit your changes: `git commit -m "Add some feature"`
+4. Push to the branch: `git push origin feature/YourFeatureName`
+5. Open a Pull Request on GitHub
 
-We welcome contributions! To contribute, please follow these steps:
-
-Fork the repository.
-
-Create a new branch:
-
-git checkout -b feature/YourFeatureName
-
-Commit your changes:
-
-git commit -m "Add some feature"
-
-Push to the branch:
-
-git push origin feature/YourFeatureName
-
-Open a Pull Request on GitHub.
-
-License:-
-
+## 📜 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Acknowledgments:-
-
-React – Frontend framework.
-
-Express.js – Backend framework.
-
-MongoDB – Database.
-
-Bootstrap – UI components.
-
-Contact:-
-
+## 📩 Contact
 For any questions or feedback, feel free to reach out:
+- **👤 Name:** Ashish Dubey
+- **✉️ Email:** honeyashish72@gmail.com
+- **🐙 GitHub:** https://github.com/ADubey7
 
-📧 Email: honeyashish72@gmail.com
+### Acknowledgments
+- **🌐 React** – Frontend framework
+- **🚀 Express.js** – Backend framework
+- **🗃️ MongoDB** – Database
+- **🎨 Bootstrap** – UI components
 
-🐙 GitHub: ADubey7
-
+Thank you for checking out the Task Manager! 🚀
