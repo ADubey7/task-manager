@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Container, Card, Form, Button, Alert } from 'react-bootstrap';
 import api from '../api';
+import ProjectFooter from '../components/ProjectFooter';
 import '../styles/LoginPage.css'; // Reuse the same styles as LoginPage
 
 const RegisterPage = ({ darkMode, toggleDarkMode }) => {
@@ -97,6 +98,7 @@ const RegisterPage = ({ darkMode, toggleDarkMode }) => {
           </Card.Body>
         </Card>
       </Container>
+      <ProjectFooter />
     </div>
   );
 };

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Container, Card, Form, Button } from 'react-bootstrap';
 import api from '../api';
+import ProjectFooter from '../components/ProjectFooter';
 import '../styles/LoginPage.css';
 
 const LoginPage = ({ darkMode, toggleDarkMode }) => {
@@ -71,6 +72,7 @@ const LoginPage = ({ darkMode, toggleDarkMode }) => {
           </Card.Body>
         </Card>
       </Container>
+      <ProjectFooter />
     </div>
   );
 };

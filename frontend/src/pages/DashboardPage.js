@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Modal, Button, Spinner, Alert, Card, Container, Navbar, Form, Row, Col } from 'react-bootstrap';
 import api from '../api';
+import ProjectFooter from '../components/ProjectFooter';
 import '../styles/DashboardPage.css';
 
 const DashboardPage = ({ darkMode, toggleDarkMode }) => {
@@ -267,6 +268,7 @@ const DashboardPage = ({ darkMode, toggleDarkMode }) => {
           </Button>
         </Modal.Footer>
       </Modal>
+      <ProjectFooter />
     </div>
   );
 };
